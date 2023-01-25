@@ -166,11 +166,11 @@
 ![Процесс sshd запущен](screenshots/ps_sshd.png)
 
 *Ключи, с которыми используется ps :*
-***a*** all processes with tty, including other users
-***x*** processes without controlling tty
-***f*** formats output as ascii art process tree
-***u*** user friendly format
-***v*** virtual  memory format
+ ***a*** all processes with tty, including other users 
+ ***x*** processes without controlling tty 
+ ***f*** formats output as ascii art process tree
+ ***u*** user friendly format 
+ ***v*** virtual  memory format
 
 #### 5. Перезапускаем систему при помощи `reboot`
 
