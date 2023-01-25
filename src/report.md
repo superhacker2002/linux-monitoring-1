@@ -165,12 +165,12 @@
 #### 4. Используем команду ps, чтобы вывести список всех процессов и отфильтровать вывод с помощью grep. Статус «listener» процесса sshd в выводе этой команды означает, что SSH работает
 ![Процесс sshd запущен](screenshots/ps_sshd.png)
 
-*Ключи, с которыми используется ps :*
- ***a*** all processes with tty, including other users 
- ***x*** processes without controlling tty 
- ***f*** formats output as ascii art process tree
- ***u*** user friendly format 
- ***v*** virtual  memory format
+*Ключи, с которыми используется ps :*  
+ ***a*** all processes with tty, including other users  
+ ***x*** processes without controlling tty  
+ ***f*** formats output as ascii art process tree  
+ ***u*** user friendly format  
+ ***v*** virtual  memory format  
 
 #### 5. Перезапускаем систему при помощи `reboot`
 
@@ -185,7 +185,7 @@
 Название протокола соединения - TCP.  
 ***Recv-Q, Send-Q***  
 Cколько данных находится в очереди для этого сокета, ожидая чтения (Recv-Q) или отправки (Send-Q). Если это 0, то все данных в очереди нет.  
-***Local/Foreign Address***
+***Local/Foreign Address***. 
 Указывают, к каким хостам и портам подключены перечисленные сокетыЕсли в качестве адреса отображается 0.0.0.0 , то это означает - "любой адрес", т.е в соединении могут использоваться все IP-адреса существующие на данном компьютере.
-***State***
+***State***  
 Состояние **Listening** говорит о том, что строка состояния отображает информацию о сетевой службе, ожидающей входящие соединения по соответствующему протоколу на адрес и порт, отображаемые в колонке "Локальный адрес ".
