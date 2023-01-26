@@ -212,16 +212,22 @@ Cколько данных находится в очереди для этог�
 ---
 - *сортировка по PID*
 ![Сортировка по PID](screenshots/pid_sorted.png)  
+
 - *сортировка по PERCENT_CPU* 
 ![Сортировка по PERCENT_CPU](screenshots/perc_cpu_sorted.png)  
+
 - *сортировка по PERCENT_MEM*
 ![Сортировка по PERCENT_MEM](screenshots/perc_mem_sorted.png)
+
 - *сортировка по TIME*
 ![Сортировка по TIME](screenshots/time_sorted.png)
+
 -  фильтрация для процесса sshd
-![Фильтрация для процесса sshd](screenshots/time_sorted.png)
+![Фильтрация для процесса sshd](screenshots/filtered_sshd.png)
+
 -   с процессом syslog, найденным, используя поиск
 ![Поиск процесса syslog](screenshots/syslog_found.png)
+
 -   с добавленным выводом hostname, clock и uptime
 ![C добавленным выводом ](screenshots/htop_added.png)
 
